@@ -9,18 +9,44 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
             margin: 0;
             font-family: "Roboto", sans-serif;
         }
-        h1 {
-            font-size: 150px;
-            padding-right: 450px; 
-            padding-bottom: 185px;
-        }   
+        
+        .rectangle {
+            width: 150px;
+            height: 200px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .rectangle img {
+            width: 100px;
+            height: 100px;
+        }
     </style>
 </head>
 <body>
-    <h1>Solidarity <br> Design</h1>
+    <h1>Solidarity Design</h1>
+    
+    <div class="rectangle" onclick="window.location.href = 'link1.html';">
+        <img src="image1.jpg" alt="Image 1">
+        Click Me 1
+    </div>
+    
+    <div class="rectangle" onclick="window.location.href = 'link2.html';">
+        <img src="image2.jpg" alt="Image 2">
+        Click Me 2
+    </div>
+    
+    <div class="rectangle" onclick="window.location.href = 'link3.html';">
+        <img src="image3.jpg" alt="Image 3">
+        Click Me 3
+    </div>
 </body>
 </html>
