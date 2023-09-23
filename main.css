@@ -1,11 +1,11 @@
 		.toppage{
 			text-decoration: none;
-			border-top: 30px;
-			padding-right: 40px;
-			padding-left: 8px;
-			margin: 30px;
-			font: serif;
-			font-size: 25px;
+			border-top: 1.875rem;
+			padding-right: 2.5rem;
+			padding-left: 0.5rem;
+			margin: 1.875rem;
+			font: Tirong font;
+			font-size: 1.563rem;
 			text-decoration: none;
 			color: black;
 		}
