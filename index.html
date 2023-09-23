@@ -16,25 +16,109 @@
 			text-decoration: none;
 			color: black;
 		}
+	.ContactUs {
+			text-decoration: none; 
+			float: right;
+			background-color: black; 
+			color: white; 
+			padding: 10px 50px; 
+			border-bottom-right-radius: 35px;
+			border-top-left-radius: 35px;
+			margin: 10px;
+			margin-right: 30px;
+		}
+	.logo {
+			width: 10%; 
+			height: auto;
+			padding: 10px;
+			object-position: 0px -4rem;
+			float: left;
+		}
+	@media (max-width: 650px) {
+			.toppage{
+			text-decoration: none;
+			border-top: 10px;
+			padding-right: 2px;
+			padding-left: 3px;
+			margin: 5px;
+			font-size: 10px;
+			color: black;
+			font: Courier New;
+			}
+			.ContactUs{
+			font-size: 10px;
+			text-decoration: none; 
+			float: right;
+			background-color: black; 
+			color: white; 
+			padding: 3.333px 17px; 
+			border-bottom-right-radius: 13px;
+			border-top-left-radius: 13px;
+			margin: 3.333px;
+			margin-right: 10px;	
+			}
+			.logo {
+			width: 5%; 
+			height: auto;
+			padding: 7px;
+			object-position: 0px -0.1rem;
+			float: left;
+		}
+		}
+
+		@media (max-width:1150px) and (min-width: 651px){
+
+			.toppage{
+			text-decoration: none;
+			border-top: 20px;
+			padding-right: 8px;
+			padding-left: 5px;
+			margin: 20px;
+			font-size: 15px;
+			color: black;
+			font: Courier New;
+			}
+			.ContactUs{
+			text-decoration: none; 
+			float: right;
+			background-color: black; 
+			color: white; 
+			padding: 6.666px 33.3333px; 
+			border-bottom-right-radius: 23.333px;
+			border-top-left-radius: 23.333px;
+			margin: 6.666px;
+			margin-right: 20px;	
+			}
+			.logo {
+			width: 10%; 
+			height: auto;
+			padding: 7px;
+			object-position: 0px -0.4rem;
+			float: left;
+		}
+		}
+		@media (max-width : 1500px) and (min-width: 1151px){
+			.logo {
+			width: 10%; 
+			height: auto;
+			padding: 7px;
+			object-position: 0px -0.8rem;
+			float: left;
+		}
+		}
+
     </style>
 </head>
 <body>
     <div style="text-align: center; ">
 
-	<img src="logo.png" style="width: 10%; height: auto; padding: 0.625rem; object-position:0rem -4rem; float: left;" >
+	<img src="logo.png" class="logo" >
 
 	
 
 	<br>
 
-	<a style="text-decoration: none; float: right;
-	  background-color: black; 
-	  color: white; 
-	  padding: 0.625rem 3.125rem; 
-	  border-bottom-right-radius: 2.188rem;
-	  border-top-left-radius: 2.188rem;
-	  margin: 0.625rem;
-	  margin-right: 1.875rem;"  href="">
+	<a class="ContactUs"  href="">
 	Contact Us</a>	
 	<br>
 
