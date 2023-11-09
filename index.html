@@ -1,22 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solidarity Design</title>
-    <style>
-       .toppage{
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		var resize = 1
+	</script>
+
+	<style type="text/css">
+
+	
+
+		.toppage{
 			text-decoration: none;
-			border-top: 1.875rem;
-			padding-right: 2.5rem;
-			padding-left: 0.5rem;
-			margin: 1.875rem;
-			font: Tirong font;
-			font-size: 1.563rem;
-			text-decoration: none;
+			border-top: 30px;
+			padding-right: 40px;
+			padding-left: 8px;
+			margin: 30px;
+			font: Garamond;
+			font-size: 25px;
 			color: black;
 		}
-	.ContactUs {
+		.toppage:hover{
+			color: goldenrod;
+		}
+		.ContactUs {
 			text-decoration: none; 
 			float: right;
 			background-color: black; 
@@ -27,14 +37,18 @@
 			margin: 10px;
 			margin-right: 30px;
 		}
-	.logo {
+		.ContactUs:hover {
+			background-color: goldenrod;
+		}
+		.logo {
+			
+			float: left;
 			width: 10%; 
 			height: auto;
-			padding: 10px;
-			object-position: 0px -4rem;
-			float: left;
+
+	
 		}
-	@media (max-width: 650px) {
+		@media (max-width: 650px) {
 			.toppage{
 			text-decoration: none;
 			border-top: 10px;
@@ -107,24 +121,37 @@
 		}
 		}
 
-    </style>
+		.button{
+			color: white; 
+			border-color: black;
+			background-color: black; 
+			font-size: 30px; 
+			padding: 10px 50px;
+		}
+		.button:hover {
+			background-color: goldenrod;
+		}
+	</style>
+
 </head>
 <body>
-    <div style="text-align: center; ">
 
-	<img src="logo.png" class="logo" >
+	
+	<div style="text-align: center; ">
+
+	<img src="logo2.png" class="logo" >
 
 	
 
 	<br>
 
-	<a class="ContactUs"  href="">
+	<a class="ContactUs"  href="SolidarityLetsGetStartetPage.html">
 	Contact Us</a>	
 	<br>
 
 
-	<a class="toppage" href="">
-		Contact us 
+	<a class="toppage" href="Services.html">
+		Packages
 	</a>
 
 	<a  class="toppage" href="">
@@ -139,15 +166,37 @@
 		Project
 	</a>
 	
-	<hr style="margin: 1.875rem; height: 0.063rem; background-color: black;">
+	<hr style="margin: 30px;">
 
 	</div>
+
+	<div>
 
 	<h1 style="font-size: 110px; padding-left: 50px;  float: lef; font-weight: 600; font: fantasy ;">
 		Our Websites will empower <br> your business
 		<span style="font-size: 30px; position: relative; top: -40px">Based in London</span>
 
 	</h1>
+	</div>
+		
+	<div style="text-align: center;">
+		<a href="SolidarityLetsGetStartetPage.html">
+			<button class="button">
+			Let's Get Started
+			</button>
+		</a>
+	</div>
 
+
+
+	<script type="text/javascript">
+		
+		var root = document.querySelector(':root');
+		var rootStyles = getComputedStyle(root);
+		var red = rootStyles.getPropertyValue('--red');
+
+
+		root.style.setProperty('--red', '--green')
+	</script>
 </body>
 </html>
