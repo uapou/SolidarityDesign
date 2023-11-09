@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style type="text/css">
+		
+		.toppage{
+			text-decoration: none;
+			border-top: 30px;
+			padding-right: 40px;
+			padding-left: 8px;
+			margin: 30px;
+			font: Garamond;
+			font-size: 25px;
+			color: black;
+		}
+		.toppage:hover {
+			color: goldenrod;
+		}
+		.logo {
+			
+			float: left;
+			width: 10%; 
+			height: auto;
+		}
+		.ContactUs {
+			text-decoration: none; 
+			float: right;
+			background-color: black; 
+			color: white; 
+			padding: 10px 50px; 
+			border-bottom-right-radius: 35px;
+			border-top-left-radius: 35px;
+			margin: 10px;
+			margin-right: 30px;
+		}
+		.ContactUs:hover {
+			background-color: goldenrod;
+		}
+		.container {
+			text-align: center;
+			padding: 30px;
+			display: grid;
+			place-self: center;
+			grid-template-rows: 100px 100px 100px 100px 100px 100px 100px ;
+			grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+		}
+		.item1 {
+			grid-row: 1 / 6;
+			grid-column: 2 / 5;
+			border: 1px solid black;
+			border-radius: 10px;
+		}
+		.item2 {
+			border: 1px solid black;
+			border-radius: 10px;
+			grid-row: 1 / 6;
+			grid-column: 7 / 10;
+		}
+		.item3 {
+			border: 1px solid black;
+			border-radius: 10px;
+			grid-row: 1 / 6;
+			grid-column: 12 / 15;
+		}
+		.item4 {
+			grid-row: 1 / 6;
+			grid-column: 17 / 20;
+			border: 1px solid black;
+			border-radius: 10px;
+		}
+	</style>
+
+	<title>Solidarity</title>
+</head>
+<body>
+	<div style="text-align: center; ">
+
+	
+	<a href="index.html">
+	<img src="logo2.png" class="logo" >
+	</a>
+	
+
+	<br>
+
+	<a class="ContactUs"  href="SolidarityLetsGetStartetPage.html">
+	Contact Us</a>
+	<br>
+
+
+
+	<a  class="toppage" href="">
+		About us
+	</a >
+
+	<a  class="toppage" href="">
+		Gallery
+	</a>
+
+	<a class="toppage" href="">
+		Project
+	</a>
+	
+	<hr style="margin: 30px;">
+
+	</div>
+
+
+	<div>
+		<h1 style="text-align: center;">
+		 	We offer 4 different packages
+		</h1>
+	</div>
+	<br>
+	<div class="container">
+		<div class="item1">
+			<h2>
+				Simple Website
+				<span style="color: goldenrod;"> 100£</span>
+			</h2>
+			<p>- Front page</p> 
+			<p>- 2 other pages</p>
+			<p>- 5 Images</p>
+			<p>- Logo</p>
+			<p>- Access to our 5 company templates</p>
+			<p>- .co.uk domain(annual subscription)</p>
+		</div>
+
+		<div class="item2"> 
+			<h2>
+				Refined website
+					<span style="color: goldenrod;"> 250£</span>
+			</h2>
+			<p>- Front page</p>
+			<p>- 6 other pages</p>
+			<p>- 15 Images</p>
+			<p>- Access to our 5 company templates as well as our 10 exclusive templates</p>
+			<p>- .co.uk domain(annual subscription)</p>
+		</div>
+
+		<div class="item3"> 
+			<h2>
+				Deluxe Website
+					<span style="color: goldenrod;"> 500£</span>
+			</h2>
+			<p>- Front page </p>
+			<p>- Unlimited pages</p>
+			<p>- Unlimited images</p>
+			<p>- Access to all our templates or have the option to customize your own unique template for your website</p>
+			<p>- Able to have live chat rooms and user inputs</p>
+			<p>- Able to edit your website easily </p>
+			<p>- Thorough meeting with us for every page to perfect your website</p>
+			<p>- .co.uk domain(annual subscription)</p>
+		</div>
+
+		<div class="item4">
+
+			<h2>
+				Customised Website
+			</h2>
+
+			<p> This package allows you to have full liberty over the development process and your final spending as you choose options that suit your business the most adequately</p>
+
+		</div>
+	</div>
+
+
+	<label for="Op1">Front page (30£)</label>
+	<input type="checkbox" name="Op1">
+	<br>
+	<br>
+
+			<label for="Op2">Images (10£)</label>
+				<input type="checkbox"  name="Op2">
+			<br>
+			<br>
+
+			<label for="Op3">Compatible with phone and tablets (25£)</label>
+			<input type="checkbox" name="Op3">
+			<br>
+			<br>
+			<label for="Op4">Logo (5£)</label>
+			<input type="checkbox" name="Op4">
+			<br>
+
+			<a href="#"><button type="submit" style="ont-size: 40px
+			px; border-radius: 5px; color: white; text-align: center;padding: 15px 30px; background-color: forestgreen; ">Learn More</button></a>
+
+</body>
+</html>
