@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Solidarity</title>
+
+	<style type="text/css">
+		.body {
+			background: linear-gradient(
+				to right,
+				DarkOrchid 0%,
+				DarkOrchid 50%,
+				DarkOliveGreen  50%,
+				DarkOliveGreen 100%
+			);
+		}
+		.letsgetstartedform{
+			float: right;
+			border: 1px;
+			border-style: solid;
+			border-color: black;
+			font-size: 20px;
+			box-sizing: border-box;
+			background-color: lightcyan;		
+			word-wrap: break-word;
+			width: 700px;
+			height: 600px;
+			margin: 20px;
+			padding-left: 40px;
+			padding-right:10px;
+
+		}
+		.toppage{
+			text-decoration: none;
+			border-top: 30px;
+			padding-right: 40px;
+			padding-left: 8px;
+			margin: 30px;
+			font: Garamond;
+			font-size: 25px;
+			color: black;
+		}
+		.toppage:hover {
+			color: goldenrod;
+		}
+		.logo {
+			
+			float: left;
+			width: 10%; 
+			height: auto;
+		}
+	</style>
+	<script type="text/javascript">
+			function submtrslt()
+			{
+			var phone = parseFloat(document.getElementByName('Pnumber').value);
+			}
+	</script>
+</head>
+<body>
+
+	<div style="text-align: center; ">
+
+	<a href="index.html">
+	<img src="logo2.png" class="logo" >
+	</a>
+	
+
+	<br>
+
+
+	<br>
+
+
+	<a class="toppage" href="Services.html">
+		Packages 
+	</a>
+
+	<a  class="toppage" href="">
+		About us
+	</a >
+
+	<a  class="toppage" href="">
+		Gallery
+	</a>
+
+	<a class="toppage" href="">
+		Project
+	</a>
+	
+	<hr style="margin: 30px;">
+
+	</div>
+
+	<div class="body">
+
+		<div style=" border: 10px; width: 800px; height: 700px; border-color: black; box-sizing: border-box; word-wrap: break-word; float: left; padding: 40px; padding-left: 9	0px; margin: 50px; margin-top: 20px; color: ;">
+			<p style="font-size: 60px; font-family: monospace; font-style: oblique;"> Let's Get Started!</p>
+			<p>For any enquiries please contact us by either email or call, we'll be glad to help and wil try to answer as soon as possible</p>
+			<br>
+			<p> <span style="font-weight: bold;" >Email:   </span> Solidaritywebdesign@gmail.com</p>
+			<p> <span style="font-weight: bold;" >Call:   </span> 070000000000</p>
+		</div>
+
+
+
+		<div class="letsgetstartedform">
+		<form >
+			<p>First name <br> <textarea placeholder="Enter your first name" rows="2" cols="40" name="1name"></textarea> </p>
+
+			<p>Surname <br> <textarea placeholder="Enter your last name" rows="2" cols="40" name="lastname"></textarea> </p>
+
+			<p>Email <br> <textarea placeholder="example@gmail.com" rows="2" cols="40" name="Summary"></textarea> </p>
+
+			<p>Telephone number<br> <textarea placeholder="07 1234 567 890" rows="2" cols="40" name="Pnumber"></textarea> </p>
+
+			<p> Short summary of your project <br/> <textarea placeholder="type here" rows="2" cols="40" name="Summary"></textarea> </p>
+
+			<input style="background-color: forestgreen; padding: 10px 40px; border: 1px; border-radius: 10px; color: white; font-size: 20px;" type="button" value="Submit" onclick="submtrslt()">
+		</form>
+		</div>
+	</div>
+</body>
+</html>
